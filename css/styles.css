@@ -22,7 +22,7 @@ button {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
  background-color: #ffffff;
 }
 /*========= /COMMET STYLES =========*/
@@ -38,7 +38,7 @@ body {
   color: #4d5ae5;
 }
 .logo-color {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .manu-link {
   font-weight: 500;
@@ -74,7 +74,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -114,8 +114,9 @@ body {
 }
 .title-workers {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .workers-list-item {
   background-color: #ffffff;
@@ -138,8 +139,9 @@ body {
 /*============= PORTFOLIO ==============*/
 .title-offers {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .offers-service {
   font-weight: 500;
