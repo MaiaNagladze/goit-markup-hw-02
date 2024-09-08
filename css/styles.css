@@ -7,24 +7,23 @@ a {
   text-decoration: none;
   color: inherit;
   font-style: inherit;
+  font-family: inherit;
 }
-
 h2 {
   text-align: center;
+  font-family: inherit;
 }
 h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-family: inherit;
+  color:inherit; 
 }
 button {
   cursor: pointer;
 }
-.body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+ background-color: #ffffff;
 }
 /*========= /COMMET STYLES =========*/
 
@@ -42,29 +41,22 @@ button {
   color: #2e2f42;
 }
 .manu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .manu-link:hover,
 .manu-link:focus {
   color: #404bbf;
 }
-.contacts-mail,
-.contacts-tel {
+.link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-mail:hover,
-.contacts-mail:focus {
-  color: #404bbf;
-}
-.contacts-tel:hover,
-.contacts-tel:focus {
+.link:hover, 
+.link:focus {
   color: #404bbf;
 }
 .page-contacts {
@@ -76,21 +68,24 @@ button {
 
 /*================ HERO SECTION ==========*/
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .title-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 .order-service {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #ffffff; 
   background: #4d5ae5;
 }
 .order-service:hover,
@@ -101,54 +96,63 @@ button {
 
 /*================= OUR BENEFITS ==========*/
 .title-preference-item {
-  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .text-preference-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /*================= /OUR BENEFITS ==========*/
 
 /*============== OUR TEAM ============*/
-.preference {
+.workers {
   background-color: #f4f4fd;
 }
 .title-workers {
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 .workers-list-item {
   background-color: #ffffff;
 }
 .name {
-  color: #2e2f42;
+ font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .position {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
 }
 /*============== /OUR TEAM ============*/
 
 /*============= PORTFOLIO ==============*/
-.title-service {
+.title-offers {
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
-.service-header-first, 
-.service-header-second {
-color: #2e2f42;
+.offers-service {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.text-service-first, 
-.text-service-second {
+.offers-text {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /*============= /PORTFOLIO ==============*/
 
