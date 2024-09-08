@@ -1,0 +1,134 @@
+/*========= COMMET STYLES =========*/
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: inherit;
+}
+p {
+  color: #434455;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+button {
+  cursor: pointer;
+}
+.body {
+  font-family: 'Roboto', 'Roboto mono', sans-serif;
+  color: #2e2f42;
+  background: #ffffff;
+}
+/*========= /COMMET STYLES =========*/
+
+/*========= HEADER STYLES =======*/
+.page-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-color {
+  color: #4d5ae5;
+}
+.manu-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.manu-link:hover,
+.manu-link:focus,
+.contacts-mail:hover,
+.contacts-tel:hover {
+  color: #404bbf;
+}
+.contacts-mail,
+.contacts-tel {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*========= /HEADER STYLES =======*/
+
+/*======== MAIN STYLES ======*/
+
+/*================ HERO SECTION ==========*/
+.hero {
+  background: #2e2f42;
+}
+.title-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.order-service {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.order-service:hover,
+.order-service:focus {
+  background: #404bbf;
+}
+/*================ /HERO SECTION ==========*/
+
+/*================= OUR BENEFITS ==========*/
+.text-preference-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*================= /OUR BENEFITS ==========*/
+
+/*============== OUR TEAM ============*/
+.title-workers {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.position {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/*============== /OUR TEAM ============*/
+
+/*============= PORTFOLIO ==============*/
+.title-service {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.text-service {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*============= /PORTFOLIO ==============*/
+
+/*======== /MAIN STYLES ======*/
+
+/*=========== PAGE FOOTER ==============*/
+.business {
+  background: #2e2f42;
+}
+t.ext-footer {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/*=========== PAGE FOOTER ==============*/
